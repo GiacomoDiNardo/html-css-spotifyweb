@@ -16,7 +16,16 @@
         <div class="up-container flex-grow d-flex">
 
             <!-- sidebar statica - flex-shrink 0 width statica -->
-            <div class="side-bar no-shrink"></div>
+            <div class="side-bar no-shrink d-column">
+                <div class="logo"></div>
+
+                <div class="side-buttons"></div>
+
+                <div class="playlists flex-grow"></div>
+
+                <div class="user"></div>
+
+            </div>
 
             <!-- container - flex-grow 1 e overflow -->
             <div class="right-container flex-grow d-column">
@@ -26,13 +35,110 @@
 
                 <!-- container con contenuto principale -->
                 <div class="inner-container flex-grow overflow-a">
-                  
+                    <div class="section">
+                        <h2>Recently played</h2>
+                        <div class="card-container d-flex">
+                            <div class="card">
+                                <div class="cover"></div>
+                                <div class="title"></div>
+                            </div>
+
+                            <div class="card">
+                                <div class="cover"></div>
+                                <div class="title"></div>
+                            </div>
+    
+                            <div class="card">
+                                <div class="cover"></div>
+                                <div class="title"></div>
+                            </div>
+    
+                            <div class="card">
+                                <div class="cover"></div>
+                                <div class="title"></div>
+                            </div>
+    
+                            <div class="card">
+                                <div class="cover"></div>
+                                <div class="title"></div>
+                            </div>
+    
+                            <div class="card">
+                                <div class="cover"></div>
+                                <div class="title"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="section">
+                        <h2>Recently played</h2>
+                        <div class="card-container d-flex">
+                            <div class="card">
+                                <div class="cover"></div>
+                                <div class="title"></div>
+                            </div>
+
+                            <div class="card">
+                                <div class="cover"></div>
+                                <div class="title"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="section">
+                        <h2>Recently played</h2>
+
+                        <div class="card-container d-flex">
+                            <div class="card">
+                                <div class="cover rounded-cover"></div>
+                                <div class="title"></div>
+                            </div>
+
+                            <div class="card">
+                                <div class="cover rounded-cover"></div>
+                                <div class="title"></div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
 
         <!-- nav-bar inferiore -->
-        <div class="nav-bar no-shrink"></div>
+        <div class="nav-bar no-shrink d-flex">
+            <div class="bar left-bar d-flex">
+                <div class="song-cover">
+                    <img src="img/sinister.jpeg" alt="">
+                </div>
+
+                <div class="song-name flex-grow">
+                    <h4>Sinister</h4>
+
+                    <span>Brano nome</span>
+                </div>
+
+                <div class="icons"></div>
+            </div>
+
+            <div class="bar central-bar">
+                <div class="song-nav"></div>
+
+                <div class="song-time d-flex">
+                    <div class="current-time"></div>
+
+                    <div class="time-bar"></div>
+
+                    <div class="final-time"></div>
+
+                </div>
+            </div>
+
+            <div class="bar right-bar">
+                <div class="icons"></div>
+
+                <div class="volume-bar"></div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
