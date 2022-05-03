@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.general-container {
+    height: 100vh;
+}
+
+.d-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-grow {
+    flex-grow: 1;
+    overflow: hidden;
+}
+
+.no-shrink {
+    flex-shrink: 0;
+}
+
+.overflow-a {
+    overflow: auto;
+}
+
+.up-container {
+    /* solo per debug */
+    background-color: antiquewhite;
+}
+
+.nav-bar {
+    /* solo per debug */
+    background-color: aqua;
+    padding: 2rem;
+}
+
+.side-bar {
+
+    min-width: 200px;
+    /* solo per debug */
+    background-color: aquamarine;
+}
+
+.right-container {
+    /* solo per debug */
+    background-color: azure;
+}
+
+.top-bar {
+    /* solo per debug */
+    background-color: black;
+    min-height: 60px;
+}
+
+.inner-container {
+    /* solo per debug */
+    background-color: blue;
+}
