@@ -39,6 +39,7 @@
     background-color: #282828;
     justify-content: space-between;
     padding: 1rem .7rem;
+    color: white;
 }
 
 .side-bar {
@@ -94,16 +95,12 @@
     padding: 1rem;
 }
 
-.bar {
-    /* solo per debug */
-    background-color: aliceblue;
-    padding: 1rem;
+.left-bar {
+    gap: 10px;
 }
 
 .song-cover {
-    /* solo per debug */
-    width: 50px;
-    border: 1px dashed red;
+   max-width: 50px;
 }
 
 .song-cover img {
@@ -121,12 +118,12 @@
 }
 
 .icons {
-    /* solo per debug */
-    border: 1px dashed red;
+    gap: 10px;
 }
 
-.time-bar {
-    width: 500px;
+.central-bar {
+    max-width: 400px;
+    flex-grow: 1;
 }
 
 .song-nav {
@@ -141,14 +138,23 @@
 
 .song-time {
     align-items: center;
+    gap: 10px;
+    font-size: 14px;
+}
+
+.time-bar {
+    width: 100%;
 }
 
 .right-bar {
     align-items: center;
+    gap: 10px;
+    max-width: 200px;
+    flex-grow: 1;
 }
 
 .volume-bar {
-    width: 200px;
+    width: 100%;
 }
 
 .bar-max {
