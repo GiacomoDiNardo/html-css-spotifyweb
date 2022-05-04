@@ -49,9 +49,115 @@
 }
 
 .side-bar > div {
+    padding: 10px;
     /* solo per debug */
-    padding: 2rem;
     border: 1px dashed red;
+}
+
+.side-bar .logo img {
+    width: 80%;
+}
+
+.side-buttons ul {
+    list-style: none;
+}
+
+.side-buttons li {
+    padding-bottom: 10px;
+}
+
+.side-buttons a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    width: 100%;
+}
+
+.side-buttons img {
+    width: 30px;
+    vertical-align: middle;
+}
+
+.section-title h3 {
+    padding-bottom: 1rem;
+    color: white;
+}
+
+.add-playlist {
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+.playlists a {
+    text-decoration: none;
+    color: grey;
+    align-items: center;
+}
+
+.add {
+    width: 40px;
+    height: 40px;
+    background-color: grey;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-right: 5px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.playlist-list {
+    max-height: 100%;
+}
+
+.playlist-list ul {
+    list-style: none;
+}
+
+.playlist-list a {
+    display: inline-block;
+    padding-bottom: 1rem;
+    width: 100%;
+}
+
+.download-icon {
+    width: 18px;
+    vertical-align: middle;
+}
+
+.download-app {
+    border-bottom: 2px solid grey;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+.download-app span {
+    font-size: 14px;
+    padding-bottom: 1rem;
+}
+
+.user-name {
+    align-items: center;
+    gap: 10px;
+}
+
+.user-image {
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.user-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.user-name .name {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .right-container {
@@ -170,4 +276,3 @@
     background-color: lightgrey;
     border-radius: 10px;
 }
-
