@@ -44,18 +44,20 @@
 
 .side-bar {
     min-width: 200px;
-    /* solo per debug */
-    background-color: aquamarine;
+    background-color: black;
+    padding: 10px;
 }
 
-.side-bar > div {
-    padding: 10px;
-    /* solo per debug */
-    border: 1px dashed red;
+.side-bar .logo {
+    padding-bottom: 1rem;
 }
 
 .side-bar .logo img {
     width: 80%;
+}
+
+.side-buttons {
+    padding-bottom: 1rem;
 }
 
 .side-buttons ul {
@@ -132,6 +134,7 @@
 }
 
 .download-app span {
+    color: white;
     font-size: 14px;
     padding-bottom: 1rem;
 }
@@ -144,9 +147,10 @@
 .user-image {
     width: 30px;
     height: 30px;
-    border: 1px solid white;
+    border: 1px solid;
     border-radius: 50%;
     overflow: hidden;
+    background-color: grey;
 }
 
 .user-image img {
@@ -190,9 +194,20 @@
 }
 
 .top-bar {
-    /* solo per debug */
-    background-color: black;
     min-height: 60px;
+    padding: 1rem;
+    /* solo per debug */
+    background-color: #080B12;
+}
+
+.top-bar .upgrade-button {
+    background-color: transparent;
+    color: white;
+    font-size: 10px;
+    padding: 7px 25px;
+    border: 1px solid white;
+    border-radius: 20px;
+    float: right;
 }
 
 .inner-container {
