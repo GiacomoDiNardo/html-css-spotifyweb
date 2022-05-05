@@ -40,4 +40,10 @@
     .user span {
         display: none;
     }
+
+    .song-nav i {
+        font-size: 16px;
+        padding: 5px;
+
+    }
 }

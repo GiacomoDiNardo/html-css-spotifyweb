@@ -1,0 +1,59 @@
+.side-buttons a:hover {
+    color: white
+}
+
+.side-buttons a:hover img {
+    opacity: 1;
+}
+
+.add-playlist a:hover {
+    color: white;
+}
+
+.add-playlist a:hover .add {
+    background-color: white;
+}
+
+.playlist-list a:hover {
+    color: white;
+}
+
+.download-app:hover img {
+    opacity: 1;
+}
+
+.download-app:hover span {
+    color: white;
+}
+
+.icons i:hover {
+    color: white;
+}
+
+.content-nav a:hover {
+    color: white;
+}
+
+.top-bar button:hover {
+    transform: scale(1.1);
+}
+
+.song-nav i:hover {
+    transform: scale(1.3);
+}
+
+.bar-max:hover .bar-level {
+    background-color: lightgreen;
+}
+
+.bar-max:hover .bar-point {
+    display: block;
+}
+
+.cover:hover img {
+    opacity: .3;
+}
+
+.cover:hover i {
+    display: block;
+}
