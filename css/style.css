@@ -276,9 +276,15 @@
     font-size: 14px;
 }
 
+.song-name span {
+    color: grey
+}
+
 .icons {
     gap: 10px;
+    color: grey;
 }
+
 
 .central-bar {
     max-width: 400px;
